@@ -1,0 +1,90 @@
+.content{
+    margin-top: 2%;
+    width: 80%;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+.pay_content{
+    padding: 2% 2% 2% 2%;
+}
+.delivery_info_pay{
+    display: flex;
+}
+.delivery_info_pay #address_infor_pay input{
+    width: 400%; 
+    margin-left: 30%;
+}
+.pro_info_pay{
+    display: flex;
+}
+.pro_info_pay_img{
+    width:30%;
+    padding-left: 1%;
+}
+.pro_info_pay_img img{
+    width: 100%;
+}
+.pro_info_pay_right{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.pro_info_unit_price{
+    padding: 5% 5%;
+}
+.pro_info_num{
+    padding: 5% 5%;
+}
+.pro_info_price{
+    padding: 5% 5%;
+}
+.pro_info_pay_left {
+    width:45%;
+    align-items: center;
+}
+.pro_info_pay_left_main{
+    display: flex;
+    align-items: center;
+}
+
+.pro_info_pay_name{
+    justify-content: center;
+}
+.total_money{
+    display: flex;
+    margin-left: 60%;
+}
+.total_money .money{
+    color: rgb(255, 193, 7);
+    margin-left: 5%;
+}
+.bank_method{
+    margin-left: 3%;
+}
+.bank_method_main{
+    display: block;
+}
+#logo_momo{
+    width: 50px;
+    height:50px;
+}
+#logo_zalo{
+    width: 50px;
+    height:50px;
+}
+#bank_method_choice{
+    margin: 1% 1%;
+}
+#bank_method_choice img {
+    margin: 1% 1%;
+}
+.btn_pay button{
+    background-color: rgb(255, 193, 7);
+    margin-left: 80%;
+    border: 1px solid rgb(255, 193, 7);
+    border-radius: 6px;
+    width: 10%;
+    height:36px;
+}
